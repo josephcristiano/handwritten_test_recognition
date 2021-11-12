@@ -1,8 +1,8 @@
 # Real-time-Handwritten-Digit-Recognition
 In this project, we are going to build a handwritten digit recognition app using the MNIST dataset, Tkinter,cv2, and Convolutional Neural Network.
 
-![result1](https://github.com/josephcristiano/Real-time-Handwritten-Digit-Recognition/blob/main/sample3.PNG)
-![result2](https://github.com/josephcristiano/Real-time-Handwritten-Digit-Recognition/blob/main/sampale-9.PNG)
+![result1](https://github.com/josephcristiano/handwritten_test_recognition/blob/main/sample3.PNG)
+![result2](https://github.com/josephcristiano/handwritten_test_recognition/blob/main/sampale-9.PNG)
 
 1. First, we are going to import all the modules that we are going to need for training our model. The Keras library already contains some datasets and MNIST is one of them. So we can easily import the dataset and start working with it. The mnist.load_data() method returns us the training data, its labels and also the testing data and its labels.
 2. The image data cannot be fed directly into the model so we need to perform some operations and process the data to make it ready for our neural network. The dimension of the training data is (60000,28,28). The CNN model will require one more dimension so we reshape the matrix to shape (60000,28,28,1).
